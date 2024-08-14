@@ -7,7 +7,7 @@
       "resolveJsonModule": true,  // Add this line
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
-      "outDir": "./dist"
+      "outDir": "./public"
     },
     "include": ["src/**/*"],
     "exclude": ["node_modules"]
