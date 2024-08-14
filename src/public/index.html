@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Scriptify API</title>
+    <link rel="stylesheet" href="./default/bootstrap.css" />
+    <link rel="stylesheet" href="./default/jquery.fullPage.css" />
+    <link rel="stylesheet" href="./default/style.css" />
+  </head>
+  <body>
+    <!-- Start Loader -->
+    <div class="loading" style="display: none">
+      <div class="loader">
+        <img class="loader-img" src="./default/loader.svg" />
+        <span> Loading... </span>
+      </div>
+    </div>
+    <!-- End Loader -->
+    <!-- Start Header -->
+    <header class="page-header" id="page-header">
+      <div class="container-full">
+        <div class="navbar-header">
+          <!-- Logo -->
+          <a
+            class="logo animated onstart fadeInDown visible"
+            data-animation-delay="200"
+            data-animation="fadeInDown"
+            href="#"
+          >
+            <strong></strong>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div
+      class="page-wrap fullpage-wrapper"
+      id="fullpage"
+      style="height: 100%; position: relative"
+    >
+      <!-- Particles Background -->
+      <canvas
+        class="bg-particles"
+        id="bg-particles"
+        width="1920"
+        height="947"
+      ></canvas>
+
+      <!-- Start Welcome -->
+      <section
+        class="welcome section-content section background-parallax bg-image-1 fp-section active fp-table fp-completely"
+        data-anchor="welcome"
+        style="height: 570px"
+      >
+        <div class="fp-tableCell" style="height: 570px">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h1
+                  class="section-title animated onstart fadeInUp visible"
+                  data-animation-delay="0"
+                  data-animation="fadeInUp"
+                >
+                  Welcome to <span class="highlight f-bold">Scriptify API</span>
+                </h1>
+                <div>
+                  <a href="/api-docs">
+                    <button
+                      style="
+                        color: white;
+                        background-color: #006fee;
+                        border-radius: 50px;
+                        display: flex;
+                      "
+                    >
+                      <p
+                        style="
+                          margin: auto;
+                          padding: 5px;
+                          padding-left: 20px;
+                          padding-right: 20px;
+                        "
+                      >
+                        Get Started
+                        <span>
+                          <svg
+                            aria-hidden="true"
+                            fill="none"
+                            focusable="false"
+                            height="1em"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                            width="1em"
+                            class="group-data-[hover=true]:translate-x-0.5 outline-none transition-transform"
+                            tabindex="-1"
+                          >
+                            <path
+                              d="M16.835 6.91821L23.9166 13.9999L16.835 21.0815"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-miterlimit="10"
+                              stroke-width="2"
+                            ></path>
+                            <path
+                              d="M4.08325 14H23.7183"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-miterlimit="10"
+                              stroke-width="2"
+                            ></path>
+                          </svg>
+                        </span>
+                      </p>
+                    </button>
+                  </a>
+                </div>
+                <div
+                  style="display: none"
+                  class="onstart animated text-left fadeInUp visible"
+                  data-animation-delay="100"
+                  data-animation="fadeInUp"
+                  id="clock"
+                >
+                  <div class="counter-container">
+                    <div class="counter-box first">
+                      <div class="number">99</div>
+                      <span>Day</span>
+                    </div>
+                    <div class="counter-box">
+                      <div class="number">02</div>
+                      <span>Hours</span>
+                    </div>
+                    <div class="counter-box">
+                      <div class="number">13</div>
+                      <span>Minutes</span>
+                    </div>
+                    <div class="counter-box last">
+                      <div class="number">49</div>
+                      <span>Seconds</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Start Footer -->
+    <footer class="page-footer">
+      <div class="container-full">
+        <div class="row">
+          <div class="col-sm-5">
+            <div>
+              <a href="#"></a>
+            </div>
+            <div class="copyright">
+              <a href="mailto:congtuuit@gmail.com"
+                >Contact: congtuuit@gmail.com</a
+              >
+            </div>
+            <div class="copyright">Copyright © 2022 All rights reserved</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Start Scripts -->
+    <script src="./default/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootsrap plugins -->
+    <script src="./default/bootstrap.min.js"></script>
+
+    <!-- Countdown -->
+    <script src="./default/jquery.countdown.js"></script>
+
+    <!-- Particles -->
+    <script src="./default/particles.js"></script>
+
+    <!-- Moment -->
+    <script src="./default/moment.js"></script>
+
+    <!-- Main -->
+    <script src="./default/main.js"></script>
+    <!-- End Scripts -->
+  </body>
+</html>
